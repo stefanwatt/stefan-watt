@@ -1,1 +1,2 @@
-export const avatarUrl = 'https://i.pravatar.cc/300?img=13'
+import portrait from "../../assets/img/portrait.jpeg"
+export const avatarUrl = portrait
