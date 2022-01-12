@@ -5,7 +5,8 @@ import * as path from 'path'
 export default defineConfig({
   resolve: {
 				alias: {
-					$lib: path.resolve('./src/lib')
+					$lib: path.resolve('./src/lib'),
+					$assets: path.resolve('./src/assets')
 				}
 			},
   plugins: [svelte()]

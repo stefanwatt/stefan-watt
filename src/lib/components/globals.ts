@@ -1,2 +1,2 @@
-import portrait from "../../assets/img/portrait.jpeg"
+import portrait from "$assets/img/portrait.jpeg"
 export const avatarUrl = portrait
