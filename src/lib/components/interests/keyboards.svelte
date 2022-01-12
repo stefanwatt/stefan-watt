@@ -1,6 +1,6 @@
 <div class="card bg-primary-content text-primary">
     <figure>
-      <img class="Sirv" src="https://comentic.sirv.com/Images/iris_rev_2.jpg" alt="iris_rev_2" />
+      <img class="Sirv" data-src="https://comentic.sirv.com/Images/iris_rev_2.jpg" alt="iris_rev_2" />
     </figure>
     <div class="card-body">
       <h2 class="card-title text-3xl">Building ergonomic keyboards</h2>

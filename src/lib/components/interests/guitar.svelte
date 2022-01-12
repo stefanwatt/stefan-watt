@@ -1,6 +1,6 @@
 <div class="card bg-primary-content text-primary">
     <figure>
-<iframe class="aspect-video" src="https://www.youtube.com/embed/jqADI3U-vpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </figure>
+<iframe class="aspect-video" data-src="https://www.youtube.com/embed/jqADI3U-vpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </figure>
     <div class="card-body">
       <h2 class="card-title text-3xl">Playing Guitar</h2>
       <p class="text-xl mb-4">

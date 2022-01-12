@@ -9,7 +9,7 @@
   </div>
   <div class="avatar ml-1">
     <div class="w-36 h-36 lg:w-48 lg:h-48 rounded-box">
-      <img class="Sirv" alt="avatar" src="https://comentic.sirv.com/Images/muetze.jpg" />
+      <img class="Sirv" alt="avatar" data-src="https://comentic.sirv.com/Images/muetze.jpg" />
     </div>
   </div>
 </div>
