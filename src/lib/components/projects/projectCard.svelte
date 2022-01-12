@@ -17,7 +17,7 @@
       necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.
     </p>
     <div class="justify-end card-actions">
-      <button class="btn btn-primary rounded-full p-3 cursor-pointer">
+      <button aria-label="github" class="btn btn-primary rounded-full p-3 cursor-pointer">
         <GithubIcon />
       </button>
     </div>

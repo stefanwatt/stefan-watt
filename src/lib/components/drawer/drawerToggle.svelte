@@ -4,6 +4,7 @@
 </script>
 
 <button
+  aria-label="openDrawer"
   on:click={toggleMenu}
   class="z-10 md:hidden drop-shadow-lg fixed flex justify-center items-center w-9 h-11 top-1/2 -left-4 text-neutral rounded-full
   bg-primary">
