@@ -1,7 +1,3 @@
-<script>
-  import { avatarUrl } from "./globals";
-</script>
-
 <div
   class="p-4 lg:px-32 md:px-12 flex justify-between font-mono bg-primary-content">
   <div>
