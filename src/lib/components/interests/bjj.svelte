@@ -3,7 +3,7 @@
 </script>
 <div class="card bg-primary-content text-primary">
   <figure>
-    <img src={bjj} alt="iris_rev_2" />
+    <img src={bjj} alt="bjj" />
   </figure>
     <div class="card-body">
       <h2 class="card-title text-3xl">Brazilian Jiu Jitsu</h2>
