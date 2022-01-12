@@ -34,7 +34,12 @@ const config = {
   purge: ["./src/**/*.{html,js,svelte,ts}"],
 
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        '3xs':'0.5rem',
+        '4xs':'0.375rem'
+      }
+    },
   },
 
   plugins: [daisyui],
