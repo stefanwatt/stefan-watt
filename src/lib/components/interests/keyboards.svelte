@@ -1,10 +1,6 @@
-<script>
-  import keyboard from "$assets/img/iris_rev_2.webp";
-</script>
-
 <div class="card bg-primary-content text-primary">
     <figure>
-      <img src={keyboard} alt="iris_rev_2" />
+      <img class="Sirv" src="https://comentic.sirv.com/Images/iris_rev_2.jpg" alt="iris_rev_2" />
     </figure>
     <div class="card-body">
       <h2 class="card-title text-3xl">Building ergonomic keyboards</h2>

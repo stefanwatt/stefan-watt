@@ -1,9 +1,6 @@
-<script>
-  import bjj from "$assets/img/bjj.webp"
-</script>
 <div class="card bg-primary-content text-primary">
   <figure>
-    <img src={bjj} alt="bjj" />
+    <img class="Sirv" src="https://comentic.sirv.com/Images/bjj.jpg" alt="bjj" />
   </figure>
     <div class="card-body">
       <h2 class="card-title text-3xl">Brazilian Jiu Jitsu</h2>

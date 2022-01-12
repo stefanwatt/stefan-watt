@@ -13,7 +13,7 @@
   </div>
   <div class="avatar ml-1">
     <div class="w-36 h-36 lg:w-48 lg:h-48 rounded-box">
-      <img alt="avatar" src={avatarUrl} />
+      <img class="Sirv" alt="avatar" src="https://comentic.sirv.com/Images/muetze.jpg" />
     </div>
   </div>
 </div>
