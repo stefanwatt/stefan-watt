@@ -1,5 +1,5 @@
 <script>
-  import bjj from "$assets/img/bjj.jpg"
+  import bjj from "$assets/img/bjj.webp"
 </script>
 <div class="card bg-primary-content text-primary">
   <figure>

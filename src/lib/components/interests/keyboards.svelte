@@ -1,5 +1,5 @@
 <script>
-  import keyboard from "$assets/img/iris_rev_2.jpg";
+  import keyboard from "$assets/img/iris_rev_2.webp";
 </script>
 
 <div class="card bg-primary-content text-primary">
