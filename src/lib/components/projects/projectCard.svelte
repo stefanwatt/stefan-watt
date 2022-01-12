@@ -3,23 +3,19 @@
   export let project;
 </script>
 
-<div class="card m-2 max-w-sm">
-  <figure>
-    <img alt="project.png" src={project.img} />
-  </figure>
+<div class="w-full card m-2 max-w-sm">
   <div class="card-body bg-neutral-focus">
     <h2 class="card-title">
       {project.title}
       <div class="badge mx-2 {project.status.class}">{project.status.text}</div>
     </h2>
     <p>
-      Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
-      necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.
+      {project.description}
     </p>
     <div class="justify-end card-actions">
-      <button aria-label="github" class="btn btn-primary rounded-full p-3 cursor-pointer">
+      <a target="_blank" rel="noopener noreferrer" href='{project.gitUrl}' aria-label="github" class="btn btn-primary rounded-full p-3 cursor-pointer">
         <GithubIcon />
-      </button>
+      </a>
     </div>
   </div>
 </div>
