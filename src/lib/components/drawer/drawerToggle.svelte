@@ -1,6 +1,5 @@
 <script>
   import { showMenu, toggleMenu } from "./store";
-  import { ChevronLeftIcon, ChevronRightIcon } from "svelte-feather-icons";
 </script>
 
 <button
@@ -10,8 +9,12 @@
   bg-primary">
   <span class="mx-2" />
   {#if $showMenu}
-    <ChevronLeftIcon size="20" />
+    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+</svg>
   {:else}
-    <ChevronRightIcon size="20" />
+    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+</svg>
   {/if}
 </button>
