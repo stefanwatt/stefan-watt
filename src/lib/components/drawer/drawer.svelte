@@ -7,7 +7,7 @@
 
 <ul
   class:is-active={$showMenu}
-  class="z-10 md:w-1/3 md:p-4 text-2xl bg-neutral-transparent md:bg-neutral drop-shadow-lg fixed md:static w-0 p-0 menu overflow-y-auto transition-all h-screen">
+  class="z-10 text-2xl bg-neutral-transparent drop-shadow-lg fixed w-0 p-0 menu overflow-y-auto transition-all h-screen">
   {#each navItems as drawerItem}
     <DrawerItem {drawerItem} />
   {/each}

@@ -1,12 +1,15 @@
 <script>
+import { showMenu } from "./store";
+
+
   export let drawerItem;
   const scrollTo = (url) => {
     document.querySelector(url).scrollIntoView({
       behavior: "smooth",
     });
+    $showMenu=false
   };
 </script>
-
 <li class="my-1 bg-neutral-focus p-2 rounded-md cursor-pointer">
   <div
     on:click={() => {

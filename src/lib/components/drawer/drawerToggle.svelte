@@ -5,7 +5,7 @@
 <button
   aria-label="openDrawer"
   on:click={toggleMenu}
-  class="border-2 border-neutral z-10 md:hidden drop-shadow-lg fixed flex justify-center items-center w-9 h-11 top-1/2 -left-4 text-neutral rounded-full
+  class="border-2 border-neutral z-10 drop-shadow-lg fixed flex justify-center items-center w-9 h-11 top-1/2 -left-4 text-neutral rounded-full
   bg-primary">
   <span class="mx-2" />
   {#if $showMenu}

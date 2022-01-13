@@ -10,7 +10,7 @@
   </h1>
   <div class="flex justify-center">
 
-    <div class="md:grid md:grid-cols-2 flex flex-wrap gap-2">
+    <div class="md:grid md:grid-cols-2 flex flex-wrap justify-center gap-2">
       {#each projects as project}
       <ProjectCard {project} />
       {/each}

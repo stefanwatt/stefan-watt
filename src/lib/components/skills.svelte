@@ -26,14 +26,14 @@ import skills from "./skills";
   </div>
   <div class="p-4 mt-4 card bg-primary text-primary-content">
     <div class="flex items-center justify-between">
-      <div class="flex">
+      <div class="flex items-center">
               <Rating level=1/>
-      <span class="ml-1 text-xs">  Beginner</span>
+      <span class="ml-1 text-xs lg:text-lg"> Beginner</span>
       </div>
       <span class="mx-2" >|</span>
       <div class="flex items-center">
         <Rating level=5/>
-      <span class="ml-1 text-xs">  Expert</span>
+      <span class="ml-1 text-xs lg:text-lg"> Expert</span>
       </div>
     </div>
   </div>
