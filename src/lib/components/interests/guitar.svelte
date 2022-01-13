@@ -9,7 +9,7 @@
         I started playing about 4 years ago. I'm self taught as with most my other skills/passions.
       </p>
       <p>
-        Juicy solo starts @ 0:34 😉
+        Juicy solo starts @ <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/jqADI3U-vpU?t=37">0:37</a> 😉
       </p>
     </div>
     <div class="flex flex-col w-full">

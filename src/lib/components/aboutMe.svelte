@@ -20,7 +20,8 @@
       <div class="avatar ml-1">
         <div class="w-36 h-36 lg:w-48 lg:h-48 rounded-box">
           <img
-            class="Sirv"
+            class="Sirv image-fill"
+            data-options="fit:cover"
             alt="avatar"
             data-src="https://comentic.sirv.com/Images/muetze.jpg" />
         </div>
@@ -43,7 +44,7 @@
   </div>
   <div class="p-8">
     <p>
-      I'm young developer that is passionate about the <a class="link"  target="_blank" rel="noopener noreferrer" href="https://svelte.dev/"> <i>Svelte</i></a> Ecosystem and modern web dev technology in general.
+      I'm a young developer that is passionate about the <a class="link" target="_blank" rel="noopener noreferrer" href="https://svelte.dev/"> <i>Svelte</i></a> Ecosystem and modern web dev technology in general.
     </p>
     <p class="mt-2">
       I really like to customize my tooling such as my OS, IDE and keyboard to my personal preference. That's
