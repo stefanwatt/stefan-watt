@@ -7,6 +7,10 @@
 </script>
 
 <svelte:head>
+  <link rel="preconnect" href="https://scripts.sirv.com" crossorigin>
+<link rel="preconnect" href="https://comentic.sirv.com" crossorigin>
+<link rel="dns-prefetch" href="https://scripts.sirv.com">
+<link rel="dns-prefetch" href="https://comentic.sirv.com">
   <script src="https://scripts.sirv.com/sirv.nospin.js"></script>
 </svelte:head>
 <main class="dark">
