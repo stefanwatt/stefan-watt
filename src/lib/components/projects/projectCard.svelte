@@ -5,7 +5,7 @@
   <div class="card-body bg-neutral-focus">
     <h2 class="card-title">
       {project.emoji} {project.title}
-      <div class="badge mx-2 {project.status.class}">{project.status.text}</div>
+      <div class="badge bg-primary-content mx-2 {project.status.class}">{project.status.text}</div>
     </h2>
     <p>
       {project.description}

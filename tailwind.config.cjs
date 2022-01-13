@@ -23,7 +23,7 @@ const config = {
           "base-300": "#d1d5db",
           "base-content": "#1f2937",
           info: "#A5D0A8",
-          success: "#6F732F",
+          success: "#40ad1f",
           warning: "#FFFF82",
           error: "#FF9B54",
         },
@@ -36,9 +36,9 @@ const config = {
   theme: {
     extend: {
       fontSize: {
-        '3xs':'0.5rem',
-        '4xs':'0.375rem'
-      }
+        "3xs": "0.5rem",
+        "4xs": "0.375rem",
+      },
     },
   },
 
