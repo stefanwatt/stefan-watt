@@ -1,10 +1,10 @@
 <div class="card bg-primary-content text-primary">
   <figure>
-    <img class="Sirv" data-src="https://comentic.sirv.com/Images/bjj.jpg" alt="bjj" />
+    <img class="Sirv"  data-options="lazy:false" data-src="https://comentic.sirv.com/Images/bjj.jpg" alt="bjj" />
   </figure>
     <div class="card-body">
-      <h2 class="card-title text-3xl">Brazilian Jiu Jitsu</h2>
-      <p class="text-xl mb-4">
+      <h2 class="card-title text-2xl md:text-3xl">Brazilian Jiu Jitsu 🤼</h2>
+      <p class="text-lg md:text-xl mb-4">
         The gentle art        
       </p>
       <p class="mt-4">

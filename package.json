@@ -24,8 +24,10 @@
     "vite": "^2.6.4"
   },
   "dependencies": {
+    "@icons-pack/svelte-simple-icons": "^2.3.0",
     "@sveltejs/adapter-static": "^1.0.0-next.26",
     "daisyui": "^1.16.2",
+    "simple-icons": "^6.6.0",
     "svelte-feather-icons": "^3.5.0"
   }
 }

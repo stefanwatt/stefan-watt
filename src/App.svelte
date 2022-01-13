@@ -6,6 +6,9 @@
   import AboutMe from "$lib/components/aboutMe.svelte";
 </script>
 
+<svelte:head>
+  <script src="https://scripts.sirv.com/sirv.nospin.js"></script>
+</svelte:head>
 <main class="dark">
   <div class="h-screen dark:bg-neutral text-primary">
     <div class="md:flex">
