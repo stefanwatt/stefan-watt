@@ -1,3 +1,7 @@
+  <svelte:head>
+  <script defer src="https://scripts.sirv.com/sirv.nospin.js"></script>
+</svelte:head>
+
 <div id="about" class="font-mono bg-primary-content py-8">
   <div class="p-4 lg:px-32 md:px-12">
     <div class="flex justify-between">
