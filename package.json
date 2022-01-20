@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@justinribeiro/lite-youtube": "^1.3.1",
+    "@okrad/svelte-progressbar": "^1.11.3",
     "autoprefixer": "^10.4.2",
     "cssnano": "^5.0.15",
     "daisyui": "^1.22.2",

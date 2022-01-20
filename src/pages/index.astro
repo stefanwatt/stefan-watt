@@ -6,6 +6,7 @@
   import Skills from "$lib/components/skills.svelte";
   import Drawer from "$lib/components/drawer/drawer.svelte";
   import AboutMe from "$lib/components/aboutMe.svelte";
+  import BackToTop from "$lib/components/backToTop.svelte";
 ---
 
 <html lang="en">
@@ -26,19 +27,19 @@
 	</head>
 
 	<body>
-<main class="dark">
-  <div class="h-screen dark:bg-neutral text-primary">
-    <div class="md:flex">
-      <Drawer client:idle />
-      <div class="md:max-h-screen md:overflow-y-scroll md:w-full">
-        <AboutMe />
-        <Projects />
-        <Skills />
-        <Interests />
+    <main class="dark">
+      <div class="h-screen dark:bg-neutral text-primary">
+        <div class="md:flex">
+          <Drawer client:idle />
+          <div class="md:max-h-screen md:overflow-y-scroll md:w-full">
+            <AboutMe />
+            <Projects />
+            <Skills />
+            <Interests />
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</main>
-
-	</body>
+      <BackToTop client:idle/>
+    </main>
+  </body>
 </html>

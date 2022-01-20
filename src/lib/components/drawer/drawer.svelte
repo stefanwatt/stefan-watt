@@ -6,8 +6,8 @@
 </script>
 
 <ul
-  class:is-active={$showMenu}
-  class="z-10 text-2xl bg-neutral-transparent drop-shadow-lg fixed w-0 p-0 menu overflow-y-auto transition-all h-screen">
+  class:is-active={$showMenu}   
+  class="z-10 text-2xl bg-neutral-transparent drop-shadow-lg fixed w-0 p-0 menu overflow-y-auto transition-all h-screen flex justify-center ">
   {#each navItems as drawerItem}
     <DrawerItem {drawerItem} />
   {/each}
@@ -16,7 +16,7 @@
 
 <style>
   ul.menu.is-active {
-    @apply p-4 w-2/3;
+    @apply p-6 w-2/3;
   }
   .bg-neutral-transparent {
     background-color: rgb(74 78 105 / 95%);
