@@ -4,23 +4,13 @@
 
 <div id="about" class="font-mono bg-primary-content py-8">
   <div class="p-4 lg:px-32 md:px-12">
-    <div class="flex justify-between">
-      <div>
-        <h1 class="text-3xl lg:text-7xl">
-          Hi 👋
-          <p>I'm Stefan</p>
-        </h1>
-        <p class="text-sm lg:text-2xl">I'm a Web-Developer</p>
-      </div>
-      <div class="avatar ml-1">
-        <div class="w-36 h-36 lg:w-48 lg:h-48 rounded-box">
-          <img
-            class="Sirv image-fill"
-            data-options="fit:cover"
-            alt="avatar"
-            data-src="https://comentic.sirv.com/Images/muetze.jpg"
-          />
-        </div>
+    <div class="flex justify-center">
+      <div class="w-80">
+        <img
+          class="Sirv"
+          data-src="https://comentic.sirv.com/Images/stefan-watt-brand.svg"
+          alt="brand"
+        />
       </div>
     </div>
   </div>
@@ -53,27 +43,37 @@
       <span class="px-2">stefan.watt@gmail.com</span>
     </div>
   </div>
-  <div class="p-8">
-    <p>
-      I'm a young developer that is passionate about the <a
-        class="link"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://svelte.dev/"
-      >
-        <i>Svelte</i></a
-      > Ecosystem and modern web dev technology in general.
-    </p>
-    <p class="mt-2">
-      I really like to customize my tooling such as my OS, IDE and keyboard to my personal
-      preference. That's why I only use <i>Linux (Arch)</i> and a custom keyboard these
-      days. I'm also starting to get into <i>VSCode</i>
-      Extension development and simultaneously checking out <i> NeoVim </i> and
-      <i>Emacs Doom</i>.
-    </p>
-    <p class="mt-2">
-      Hopefully this website will give you a better impression of me as a professional and
-      also as a person.
-    </p>
+  <div class="p-8 lg:px-36 2xl:px-96 flex flex-wrap md:flex-nowrap md:justify-between">
+    <div class="avatar mx-8 w-full md:w-1/4 md:mr-4 object-cover max-h-80 md:max-h-60 mb-4 md:m-0 ">
+      <img
+        class="Sirv rounded-box"
+        data-options="fit:cover"
+        alt="avatar"
+        data-src="https://comentic.sirv.com/Images/muetze.jpg"
+      />
+    </div>
+    <div class="md:w-3/4">
+      <p>
+        I'm a young developer that is passionate about the <a
+          class="link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://svelte.dev/"
+        >
+          <i>Svelte</i></a
+        > Ecosystem and modern web dev technology in general.
+      </p>
+      <p class="mt-2">
+        I really like to customize my tooling such as my OS, IDE and keyboard to my
+        personal preference. That's why I only use <i>Linux (Arch)</i> and a custom
+        keyboard these days. I'm also starting to get into <i>VSCode</i>
+        Extension development and simultaneously checking out <i> NeoVim </i> and
+        <i>Emacs Doom</i>.
+      </p>
+      <p class="mt-2">
+        Hopefully this website will give you a better impression of me as a professional
+        and also as a person.
+      </p>
+    </div>
   </div>
 </div>

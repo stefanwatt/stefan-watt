@@ -15,5 +15,6 @@
       flow state while rolling is one of the most gratifying experiences of my everyday
       life.
     </p>
+  </div>
 </div>
 <script>const foo = 'bar'</script>
