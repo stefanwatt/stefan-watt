@@ -6,7 +6,7 @@
   aria-label="openDrawer"
   on:click={toggleMenu}
   class="border-2 border-neutral z-10 drop-shadow-lg fixed flex justify-center items-center w-9 h-11 top-1/2 -left-4 text-neutral rounded-full
-  bg-primary">
+  bg-primary-content">
   <span class="mx-2" />
   {#if $showMenu}
     <svg style="width:24px;height:24px" viewBox="0 0 24 24">

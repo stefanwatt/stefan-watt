@@ -4,7 +4,6 @@ import SimpleIcon from "./simpleIcon.svelte";
 import skills from "./skills";
 </script>
 
-<div id="skills" class="w-full bg-stone-800 p-8">
   <h1 class="md:text-6xl font-bold text-3xl text-center">Skills 💪</h1>
   <h2 class="md:text-2xl text-center">a.k.a. stuff I'm good at 🤓</h2>
   <div class="divider" />
@@ -24,7 +23,7 @@ import skills from "./skills";
       {/each}
     </div>
   </div>
-  <div class="p-4 mt-4 card bg-primary text-primary-content">
+  <div class="p-4 mt-4 card bg-neutral text-neutral-content">
     <div class="flex items-center justify-between">
       <div class="flex items-center">
               <Rating level=1/>
@@ -37,4 +36,3 @@ import skills from "./skills";
       </div>
     </div>
   </div>
-</div>

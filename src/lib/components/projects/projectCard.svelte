@@ -3,11 +3,11 @@
 </script>
 
 <div class="w-full card m-2 max-w-sm">
-  <div class="card-body bg-neutral-focus">
+  <div class="card-body bg-neutral-focus text-neutral-content">
     <h2 class="card-title">
       {project.emoji}
       {project.title}
-      <div class="badge bg-primary-content mx-2 {project.status.class}">
+      <div class="badge bg-primary mx-2 {project.status.class}">
         {project.status.text}
       </div>
     </h2>

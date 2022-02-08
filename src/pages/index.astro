@@ -1,13 +1,7 @@
 ---
-// Component imports and setup JavaScript go here!
-
-  import Interests from "$lib/components/interests.astro";
-  import Projects from "$lib/components/projects/projects.svelte";
-  import Skills from "$lib/components/skills.svelte";
   import Drawer from "$lib/components/drawer/drawer.svelte";
-  import AboutMe from "$lib/components/aboutMe.svelte";
   import BackToTop from "$lib/components/backToTop.svelte";
-  import Divider from "$lib/components/divider.svelte";
+  import Sections from "$lib/components/sections.svelte";
 ---
 
 <html lang="en">
@@ -21,6 +15,8 @@
     <link rel="preconnect" href="https://comentic.sirv.com" crossorigin />
     <link rel="dns-prefetch" href="https://scripts.sirv.com" />
     <link rel="dns-prefetch" href="https://comentic.sirv.com" />
+    <script>var exports = {}</script>
+<script type="module" src="mytheme.js"></script>
 	</head>
 
 	<body>
@@ -29,13 +25,7 @@
         <div class="md:flex">
           <Drawer client:idle />
           <div class="md:max-h-screen md:overflow-y-scroll md:w-full">
-            <AboutMe />
-            <Divider/>
-            <Projects/>
-            <Divider topColor="9A8C98" bottomColor="292524" />
-            <Skills />
-            <Divider topColor="292524" bottomColor="C9ADA7"/>
-            <Interests />
+            <Sections client:idle/>
           </div>
         </div>
       </div>

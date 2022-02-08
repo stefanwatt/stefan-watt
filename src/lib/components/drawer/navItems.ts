@@ -4,3 +4,4 @@ export default [
   {id:2,text:'Skills',icon:'💪',url:'#skills'},
   {id:3,text:'Interests',icon:'❤️',url:'#interests'},
 ]
+

@@ -3,9 +3,8 @@
   import projects from "./projects";
 </script>
 
-<div id="projects" class="w-full bg-secondary lg:p-8">
   <h1
-    class="font-bold p-2 pt-6 mb-10 font-mono text-neutral-focus text-3xl md:text-6xl text-center">
+    class="font-bold p-2 pt-6 mb-10 font-mono text-3xl md:text-6xl text-center">
     Some of my projects 🛠️
   </h1>
   <div class="flex justify-center">
@@ -16,4 +15,3 @@
       {/each}
     </div>
   </div>
-</div>

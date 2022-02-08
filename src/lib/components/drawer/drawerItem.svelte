@@ -10,7 +10,7 @@ import { showMenu } from "./store";
     $showMenu=false
   };
 </script>
-<li class="my-1 bg-neutral-focus p-2 rounded-md cursor-pointer">
+<li class="my-1 bg-neutral text-neutral-content  p-2 rounded-md cursor-pointer">
   <div
     on:click={() => {
       scrollTo(drawerItem.url);

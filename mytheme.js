@@ -1,0 +1,23 @@
+exports.mytheme =   {
+    primary: "#2E3440",
+    "primary-focus": "#4C566A",
+    "primary-content": "#E5E9F0",
+    secondary: '#405c7d',
+    'secondary-focus': '#5E81AC',
+    'secondary-content': '#E5E9F0',
+    accent: "#D08770",
+    "accent-focus": "#EBCB8B",
+    "accent-content": "#2E3440",
+    neutral: "#3B4252",
+    "neutral-focus": "#4A4E69",
+    "neutral-content": "#E5E9F0",
+    "base-100": "#D8DEE9",
+    "base-200": "#E5E9F0",
+    "base-300": "#ECEFF4",
+    "base-content": "#434C5E",
+    info: "#5E81AC",
+    success: "#A3BE8C",
+    warning: "#EBCB8B",
+    error: "#BF616A",
+  }
+
