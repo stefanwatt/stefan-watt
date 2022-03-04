@@ -2,7 +2,7 @@
   import '@justinribeiro/lite-youtube';
 </script>
 
-<lite-youtube videoid="jqADI3U-vpU" />
+<lite-youtube videoid="s8tSd49w5Lg" />
 <div class="card-body">
   <h2 class="card-title text-2xl md:text-3xl">Playing Guitar 🎸</h2>
   <p class="text-lg md:text-xl mb-4">
@@ -17,7 +17,7 @@
       class="link"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://youtu.be/jqADI3U-vpU?t=37">0:37</a
+      href="https://youtu.be/s8tSd49w5Lg?t=37">0:37</a
     > 😉
   </p>
 </div>
