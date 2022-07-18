@@ -5,6 +5,7 @@
 <div class="p-4 lg:px-32 md:px-12">
   <div class="flex justify-center">
     <div class="w-80">
+      <div class="foo" />
       <img
         class="Sirv"
         data-src="https://comentic.sirv.com/Images/stefan-watt-brand.svg"
