@@ -2,7 +2,9 @@
   import '@justinribeiro/lite-youtube';
 </script>
 
-<lite-youtube videoid="Z9K5Not4HjU" />
+<div class="mx-2">
+<lite-youtube class="w-full h-full aspect-square rounded-md" videoid="Z9K5Not4HjU" />
+</div>
 <div class="card-body">
   <h2 class="card-title text-2xl md:text-3xl">Playing Guitar 🎸</h2>
   <p class="text-lg md:text-xl mb-4">
@@ -14,3 +16,4 @@
   </p>
 </div>
 <div class="flex flex-col w-full" />
+
