@@ -23,7 +23,7 @@
         as a frontend framework.
       </p>
       <p>
-        There was several small projects that I completed but the most noteworthy one was
+        I completed several small projects while working here but the most noteworthy one was
         an appointment-booking platform used mainly for Covid-19 vaccines and rapid tests.
         During the height of the pandemic over 40.000 users have booked their vaccinations
         with several large medical facilities using the service for their patients. I am
