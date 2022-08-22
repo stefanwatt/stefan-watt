@@ -11,7 +11,7 @@
         data-src="https://comentic.sirv.com/Images/MEDNET-logo-King.png"
       />
     </figure>
-    <div class="card-body">
+    <div class="card-body bg-secondary">
       <h2 class="card-title text-center">MEDNET Service für Ärzte AG</h2>
       <p>
         This is was my first job as a developer and also the company where I completed my
@@ -51,7 +51,7 @@
         />
       </figure>
     </div>
-    <div class="card-body">
+    <div class="card-body bg-secondary">
       <h2 class="card-title text-center">Dedalus Healthcare</h2>
       <p>
         My current place of employment. It's one of the leading enterprises or hospital
