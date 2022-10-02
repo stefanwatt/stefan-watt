@@ -1,14 +1,14 @@
 <script lang="ts">
-  const getAge = (birthDate:Date):number => {
-      var today = new Date();
-      var age = today.getFullYear() - birthDate.getFullYear();
-      var m = today.getMonth() - birthDate.getMonth();
-      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-          age--;
-      }
-      return age;
-  }
-  const ageInYears = getAge(new Date("1995-07-13"))
+  const getAge = (birthDate: Date): number => {
+    var today = new Date();
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  };
+  const ageInYears = getAge(new Date('1995-07-13'));
 </script>
 
 <svelte:head>
@@ -16,14 +16,13 @@
 </svelte:head>
 <div class="p-4 lg:px-32 md:px-12">
   <div class="flex justify-center">
-    <div class="w-80">
-      <div class="foo" />
-      <img
-        class="Sirv"
-        data-src="https://comentic.sirv.com/Images/stefan-watt-brand.svg"
-        alt="brand"
-      />
-    </div>
+      <figure class="lg:w-96 lg:h-96 md:w-72 md:h-72 sm:w-40 sm:h-40">
+        <img
+          class="Sirv"
+          data-src="https://comentic.sirv.com/Images/stefan-watt-brand.svg"
+          alt="brand"
+        />
+      </figure>
   </div>
 </div>
 
@@ -62,7 +61,7 @@
     class="avatar mx-8 w-full md:w-1/4 md:mr-4 object-cover max-h-80 md:max-h-60 mb-4 md:m-0 "
   >
     <img
-      class="Sirv rounded-box"
+      class="Sirv rounded-box aspect-square"
       data-options="fit:cover"
       alt="avatar"
       data-src="https://comentic.sirv.com/Images/muetze.jpg"
@@ -81,11 +80,11 @@
     </p>
     <p class="mt-2">
       I really like to customize my tooling such as my OS, IDE and keyboard to my personal
-      preference. That's why I only use <i>Arch Linux</i> with a highly custumized
+      preference. That's why I only use <i>Arch Linux</i> with a highly customized
       <i>i3wm</i>
-      setup and a custom keyboard these days. Due to the lack of
-      hackability/customizability I've moved away from <i>Visual Studio Code</i> and now
-      use <i>Neovim</i> as my primary editor.
+      setup and a custom keyboard these days. Due to the lack of hackability/customizability
+      I've moved away from <i>Visual Studio Code</i> and now use <i>Neovim</i> as my primary
+      editor.
     </p>
     <p class="mt-2">
       Hopefully this website will give you a better impression of me as a professional and
