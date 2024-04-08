@@ -1,22 +1,17 @@
 export default [
   { title: 'Svelte', level: 5, icon: 'svelte' },
   { title: 'SvelteKit', level: 5, icon: 'svelte' },
-  { title: 'JavaScript', level: 5, icon: 'javascript' },
+  { title: 'Angular', level: 5, icon: 'angular' },
+  { title: 'TypeScript', level: 5, icon: 'typescript' },
   { title: 'HTML', level: 5, icon: 'html5' },
-  { title: 'Prisma', level: 5, icon: 'prisma' },
   { title: 'Linux', level: 5, icon: 'linux' },
   { title: 'NodeJS', level: 5, icon: 'nodedotjs' },
   { title: 'Tailwind', level: 5, icon: 'tailwindcss' },
-  { title: 'CSS', level: 4, icon: 'css3' },
-  { title: 'TypeScript', level: 4, icon: 'typescript' },
-  { title: 'Socket.io', level: 4, icon: 'socketdotio' },
-  { title: 'Jest', level: 4, icon: 'jest' },
+  { title: 'CSS', level: 5, icon: 'css3' },
+  { title: 'Lua', level: 5, icon: 'lua' },
   { title: 'ExpressJS', level: 4, icon: 'express' },
-  { title: 'C#', level: 3, icon: 'csharp' },
-  { title: 'Python', level: 3, icon: 'python' },
-  { title: 'Lua', level: 3, icon: 'lua' },
-  { title: 'ASP.NET', level: 3, icon: 'dotnet' },
-  { title: 'MySQL', level: 3, icon: 'mysql' },
-  { title: 'SignalR', level: 3, icon: 'dotnet' },
-  { title: 'Bash', level: 3, icon: 'windowsterminal' }
-]
+  { title: 'Bash', level: 4, icon: 'windowsterminal' },
+  { title: 'PostgreSQL', level: 3, icon: 'postgresql' },
+  { title: 'Java', level: 3, icon: 'java' },
+  { title: 'Go', level: 3, icon: 'go' }
+];

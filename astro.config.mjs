@@ -11,13 +11,18 @@
 import * as path from 'path'
 export default /** @type {import('astro').AstroUserConfig} */ ({
   // Comment out "renderers: []" to enable Astro's default component support.
-  renderers: ["@astrojs/renderer-svelte"],
+  renderers: ['@astrojs/renderer-svelte'],
   vite: {
+    optimizeDeps: {
+      esbuildOptions: {
+        plugins: []
+      }
+    },
     resolve: {
       alias: {
-        $lib: path.resolve("./src/lib"),
-        $assets: path.resolve("./src/assets"),
-      },
-    },
-  },
-});
+        $lib: path.resolve('./src/lib'),
+        $assets: path.resolve('./src/assets')
+      }
+    }
+  }
+})

@@ -1,8 +1,8 @@
-<figure>
+<figure class="mx-2 md:mx-0">
   <img
-    class="Sirv"
+    class="Sirv rounded-md md:rounded-none"
     data-options="lazy:false"
-    data-src="https://comentic.sirv.com/Images/bjj.jpg"
+    data-src="https://comentic.sirv.com/Images/bjj.webp"
     alt="bjj"
   />
 </figure>

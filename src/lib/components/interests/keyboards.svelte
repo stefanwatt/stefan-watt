@@ -1,8 +1,8 @@
-<figure>
+<figure class="mx-2 md:mx-0">
   <img
-    class="Sirv"
+    class="Sirv rounded-md md:rounded-none"
     data-options="lazy:false"
-    data-src="https://comentic.sirv.com/Images/IMG_20220123_202440.jpg"
+    data-src="https://comentic.sirv.com/Images/draculad.webp"
     alt="iris_rev_2"
   />
 </figure>
